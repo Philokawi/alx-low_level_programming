@@ -6,8 +6,8 @@
 int main(void)
 {
 int i;
-long int | ;
-long long int || ;
+long int: 8 byte;
+long long int:8 byte;
 float d;
 char c;
 printf("Size of a char: %lu byte...
