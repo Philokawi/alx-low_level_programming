@@ -4,10 +4,8 @@
  * Return: 0
  */
 int main (void)
-{	
 void print_alphabet(void)
-       return (0);
-}
+{
 	int j;
 
 	for (j = 'a'; j <= 'z'; j++)
