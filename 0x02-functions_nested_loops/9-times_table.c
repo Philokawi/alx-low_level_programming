@@ -2,7 +2,7 @@
 /**
  * jack_baeur -> print 24 hours
  */
-void jack baeur(void)
+void jack_baeur(void)
 {
 	int i, j;
 
