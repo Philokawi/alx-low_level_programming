@@ -1,11 +1,14 @@
 #include "main.h"
 /**
- * main - entery point
- * prints_alphabet_x10 -> print the lowercase
+ * main - check code
+ * description:prints_alphabet_x10 -> print the lowercase
  * Return: 0
  */
-void print_alphabet_x10(void)
+int main(void)
+
 {
+	print_alphabet_x10();
+
 	int j;
 	int x;
 
