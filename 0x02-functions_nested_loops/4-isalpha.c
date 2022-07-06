@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * main - entry point
- * Description: _isalpha -chechs for alphabetical letters
+ *_isalpha -checks for alphabetical letters
  * @c: a character to be checked on
  * Return: return 0 or 1 depending on condition
  */
