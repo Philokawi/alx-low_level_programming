@@ -1,22 +1,19 @@
 #include "main.h"
 /**
- * main - check code
- * description:prints_alphabet_x10 -> print the lowercase
- * Return: 0
+ * print_alphabet_x10 -> print the lower alphabet
  */
-int main(void)
 
+void print_alphabet_x10(void)
 {
-	print_alphabet_x10();
 
 	int j;
 	int x;
 
 	for (x = 0; x < 10; x++)
 	{
-		for (j = 'a'; j <= 'z'; j++)
+	for (j = 'a'; j <= 'z'; j++)
 		{
-			_putchar(j);
+		_putchar(j);
 		}
 		_putchar('\n');
 	}
