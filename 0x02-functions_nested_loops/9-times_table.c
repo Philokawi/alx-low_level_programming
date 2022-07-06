@@ -1,37 +1,47 @@
 #include "main.h"
 /**
- * jack_baeur -> print 24 hours
+ * time_table - prints tables
  */
-void jack_baeur(void)
+void time_table(void)
 {
-	int i, j;
+	int a;
+	int b;
+	int c;
 
-	for (i = 0; i < 24; i++)
+	for (a = 0; a <= 9; a++)
 	{
-		for (j = 0; j < 60; j++)
+		for (b = 0; b <= 9; j++)
 		{
-			if (i < 10)
+			c = a * b;
+			if ((c / 10) == 0)
 			{
-				_putchar('0');
-				_putchar(i + '0');
+				if (b == 0)
+				{
+					_putchar('0');
+				}
+				if (b != 0)
+				{
+					_putchar(' ');
+					_putchar((c % 10) + '0');
+				}
+				if (b < 9)
+				{
+					_putchar(',');
+					_putchar(' ');
+				}
 			}
-			else if (i >= 10)
+			else
 			{
-				_putchar((i / 10) + '0');
-				_putchar((i % 10) + '0');
-			}
-			if (j < 10)
-			{
-				_putchar(':');
-				_putchar('0');
-				_putchar(j + '0');
-			}
-			else if (j >= 10)
-			{
-				_putchar(':');
-				_putchar((j / 10) + '0');
-				_putchar((j % 10) + '0');
+				_putchar((c / 10) + '0');
+				_putchar((c % 10) + '0');
+
+				if (b < 9)
+				{
+					_putchar(',');
+					_putchar(' ');
+				}
 			}
 		}
 		_putchar('\n');
 	}
+}
