@@ -30,6 +30,6 @@ _putchar('\n');
 }
 else if (size <= 0)
 {
-putchar('\n');
+_putchar('\n');
 }
 }
