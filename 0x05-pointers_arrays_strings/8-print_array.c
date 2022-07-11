@@ -1,5 +1,5 @@
-#include "main.h"
 #include <string.h>
+#include "main.h"
 /**
 * print_array - a function that prints n elements of an array of integers,
 * followed by a new line.
@@ -11,21 +11,13 @@
 void print_array(int *a, int n)
 
 {
+	int i = 0;
 
-int i = 0;
-
-for (; i < n; i++)
-
-{
-
-printf("%d", a[i]);
-
-if (i < n - 1)
-
-printf(", ");
-
-}
-
-putchar('\n');
-
+	for (; i < n; i++)
+	{
+	printf("%d", a[i]);
+	if (i < n - 1)
+	printf(", ");
+	}
+	putchar('\n');
 }
