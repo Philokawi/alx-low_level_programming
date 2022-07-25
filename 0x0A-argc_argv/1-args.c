@@ -1,15 +1,16 @@
 #include <stdio.h>
 
 /**
- * main ->this is function to print umber passed
- *@argc: argc parameter
- *@argv: an array of commands listed
+ * main ->this is function to print number passed
+ *@argc: An argument counter
+ *@argv:An argument values
  *Return: 0 for success
  */
 
-int main(int argc, char *argv[] _attribute_((unused)))
-
+int main(int argc, char *argv[])
 {
-	printf("%d\n", argc - 1);
-	return (0);
+if (argv[0])
+
+printf("%d\n", argc - 1);
+return (0);
 }
