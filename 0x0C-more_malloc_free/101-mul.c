@@ -3,15 +3,10 @@
 #include <stdlib.h>
 
 /**
-
 * main - Check the code
-
 * @argc: number of arguments
-
 * @argv: arguments
-
 * Return: Nothing
-
 */
 
 int main(int argc, char **argv)
@@ -38,7 +33,7 @@ num1 = atoi(argv[1]);
 
 num2 = atoi(argv[2]);
 
-result = num1 * num2;
+result = num1 *num2;
 
 printf("%d\n", result);
 
